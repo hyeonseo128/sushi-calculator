@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  td[contenteditable="true"] {
+    background-color: #f9f9f9;
+    outline: none;
+  }
+  
+  .row-sum, .column-total-sum {
+    background-color: #eaf7e3;
+    font-weight: bold;
+  }
+  
+  body {
+    background-color: #f8f9fa; /* Bootstrap 기본 배경색 */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  th, td[contenteditable="true"] {
+    background-color: #ffffff;
+  }
+  
+  .row-sum, .column-total-sum {
+    font-weight: bold;
+  }
+  
